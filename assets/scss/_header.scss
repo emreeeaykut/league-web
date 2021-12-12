@@ -1,0 +1,25 @@
+header {
+  position: relative;
+  background-color: $purple;
+
+  .logo {
+    padding: 0.5rem 0;
+
+    img {
+      width: 30%;
+      padding: 1rem;
+      background-color: $white;
+      border-radius: 3rem;
+    }
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+
+    a {
+      color: $white;
+      margin-left: 2rem;
+    }
+  }
+}
